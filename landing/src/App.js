@@ -9,7 +9,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import Grid from '@mui/material/Grid';
 import { SwitchTransition } from 'react-transition-group';
 import Fade from '@mui/material/Fade';
-import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
+import AnimationTwoToneIcon from '@mui/icons-material/AnimationTwoTone';
 import { useTheme } from '@mui/material/styles';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setSplash(false);
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -40,7 +40,7 @@ function App() {
         style={{ minHeight: '90vh' }}
       >
         <Grid item xs={3}>
-          <Typography gutterBottom variant="h2" align="center">Three Gates</Typography>
+          <Typography gutterBottom variant="h2" align="center">Three Rings</Typography>
           <Typography variant="h6" align="center">College Admissions Mentorship</Typography>
         </Grid>  
       </Grid> 
@@ -56,7 +56,7 @@ function App() {
         </Box>
   
         <Box sx={{ display: "flex", justifyContent: "center", p: 8}}>
-          <SchoolTwoToneIcon fontSize="large" sx={{ color: theme.palette.grey[400]}}/>
+          <AnimationTwoToneIcon fontSize="large" sx={{ color: theme.palette.grey[400]}}/>
         </Box>
     
         <SwitchTransition>
@@ -89,21 +89,21 @@ function App() {
                   Follow in our footsteps.
                 </Typography>
                 <Typography paragraph>
-                  Three Gates provides college admissions guidance from recent graduates of exceptionally competitive undergraduate programs. We believe that only those who conquer the process themselves can offer the best advice.
+                  Three Rings provides college admissions guidance from recent graduates of exceptionally competitive undergraduate programs. We believe that only those who conquer the process themselves can offer the best advice.
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
                   Our program supports a small cohort of students individually selected by our mentors.
-                  To apply for mentorship please submit the following information to <Link underline="hover">apply@threegates.college</Link> or via WeChat at <Link underline="hover">WeChatIDHere</Link>:
+                  To apply for mentorship please submit the following information to <Link underline="hover">apply@threeringsmentors.com</Link> or via WeChat at <Link underline="hover">WeChatIDHere</Link>:
                 </Typography>
                 <ul>
                   <li>The student's name and year of school</li>
                   <li>A parent or guardian's name and contact information</li>
                   <li>A brief description of the student's relevant activities and performance, such as their GPA, test scores, and interests in and out of the classroom</li>
-                  <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other ambitions</li>
+                  <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other ambitions in life</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  Three Gates College Admissions {today.getFullYear()}
+                  Three Rings College Admissions {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
