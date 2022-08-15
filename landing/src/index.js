@@ -27,9 +27,20 @@ const theme = createTheme({
       textTransform: "uppercase",
       letterSpacing: "0.1em",
     },
+    h2: {
+      fontFamily: '"Playfair Display", "Roboto", "Helvetica", "Arial", sans-serif',
+      textTransform: "uppercase",
+      letterSpacing: "0.5em",
+      marginRight: "-0.5em",
+    },
     h4: {
       fontFamily: '"Playfair Display", "Roboto", "Helvetica", "Arial", sans-serif',
-    }
+    },
+    h6: {
+      fontFamily: '"Playfair Display", "Roboto", "Helvetica", "Arial", sans-serif',
+      letterSpacing: "0.3em",
+      marginRight: "-0.3em",
+    },
   },
 });
 
