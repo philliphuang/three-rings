@@ -1,7 +1,7 @@
 {
   "name": "landing",
   "version": "0.1.0",
-  "homepage": "https://philliphuang.github.io/three-rings",
+  "homepage": "https://www.threeringsmentors.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
