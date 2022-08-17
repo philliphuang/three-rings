@@ -6,6 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+import { 
+  BrowserRouter, 
+  Routes, 
+  Route,
+} from "react-router-dom";
+
 const theme = createTheme({
   palette: {
     background: {
@@ -49,7 +55,13 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <App />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/zh" element={<App chinese={true} />} />
+        </Routes>
+      </BrowserRouter>
+
     </ThemeProvider>
   </React.StrictMode>
 );

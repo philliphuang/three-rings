@@ -12,8 +12,8 @@ import Fade from '@mui/material/Fade';
 import AnimationTwoToneIcon from '@mui/icons-material/AnimationTwoTone';
 import { useTheme } from '@mui/material/styles';
 
-function App() {
-  const [chinese, setChinese] = useState(false);
+function App(props) {
+  const [chinese, setChinese] = useState(props.chinese);
   const [splash, setSplash] = useState(true);
   const theme = useTheme();
   const today = new Date();
@@ -39,10 +39,19 @@ function App() {
         justifyContent="center"
         style={{ minHeight: '90vh' }}
       >
-        <Grid item xs={3}>
-          <Typography gutterBottom variant="h2" align="center">Three Rings</Typography>
-          <Typography variant="h6" align="center">College Admissions Mentorship</Typography>
-        </Grid>  
+        {
+          chinese ?
+          <Grid item xs={3}>
+            <Typography gutterBottom variant="h2" align="center">三环</Typography>
+            <Typography variant="h6" align="center">College Admissions Mentorship</Typography>
+          </Grid>  
+          : 
+          <Grid item xs={3}>
+            <Typography gutterBottom variant="h2" align="center">Three Rings</Typography>
+            <Typography variant="h6" align="center">College Admissions Mentorship</Typography>
+          </Grid>  
+        }
+       
       </Grid> 
       </Fade>
       : 
