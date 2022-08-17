@@ -68,7 +68,7 @@ function App() {
                   中文
                 </Typography>
                 <Typography paragraph align="justify">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
+                三环 (Three Rings) dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph align="justify">
@@ -78,7 +78,7 @@ function App() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
                 </Typography>
                 <Typography sx={{mt: 16, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  中文 {today.getFullYear()}
+                  三环大学录取 {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
@@ -100,7 +100,7 @@ function App() {
                   <li>The student's name and year of school</li>
                   <li>A parent or guardian's name and contact information</li>
                   <li>A brief description of the student's relevant activities and performance, such as their GPA, test scores, and interests in and out of the classroom</li>
-                  <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other ambitions in life</li>
+                  <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other life ambitions</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
                   Three Rings College Admissions {today.getFullYear()}
