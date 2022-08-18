@@ -43,7 +43,7 @@ function App(props) {
           chinese ?
           <Grid item xs={3}>
             <Typography gutterBottom variant="h2" align="center">三环</Typography>
-            <Typography variant="h6" align="center">College Admissions Mentorship</Typography>
+            <Typography variant="h6" align="center">入名校传帮带</Typography>
           </Grid>  
           : 
           <Grid item xs={3}>
@@ -74,20 +74,23 @@ function App(props) {
             <Fade key={chinese} timeout={500}>
               <div>
                 <Typography variant="h4" align="center" sx={{pb:4}}>
-                  中文
+                  跟随我们的脚步。
                 </Typography>
-                <Typography paragraph align="justify">
-                三环 (Three Rings) dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
+                <Typography paragraph>
+                  三环 (Three Rings) 为竞争异常激烈的本科课程的应届毕业生提供大学录取指导。 我们相信，只有那些自己征服过程的人才能提供最好的建议。
                 </Typography>
                 <Divider sx={{my:4}}/>
-                <Typography paragraph align="justify">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
+                <Typography paragraph>
+                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link> 或通过微信在 <Link underline="hover">WeChatIDHere</Link>：
                 </Typography>
-                <Typography>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non eros nulla. Proin sollicitudin diam ultricies, placerat turpis sed, sodales nisi. Fusce semper maximus velit, cursus accumsan orci. Praesent consectetur, libero vitae rutrum ultrices, massa mauris placerat lectus, quis pulvinar mauris nibh nec risus. Nulla tempor vestibulum nisl, eget aliquam urna scelerisque in.
-                </Typography>
-                <Typography sx={{mt: 16, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  三环大学录取 {today.getFullYear()}
+                <ul>
+                  <li>学生姓名和就读年份</li>
+                  <li>父母或监护人的姓名和联系信息</li>
+                  <li>简要描述学生的相关活动和表现，例如他们的 GPA、考试成绩以及课堂内外的兴趣</li>
+                  <li>学生目标的简要描述，包括他们的目标大学、预期专业和其他人生抱负</li>
+                </ul>
+                <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
+                  三环 {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
@@ -112,7 +115,7 @@ function App(props) {
                   <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other life ambitions</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  Three Rings College Admissions {today.getFullYear()}
+                  Three Rings {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
