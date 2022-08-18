@@ -90,7 +90,7 @@ function App(props) {
                   <li>学生目标的简要描述，包括他们的目标大学、预期专业和其他人生抱负</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  三环 {today.getFullYear()}
+                  三环传帮带 {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
@@ -115,7 +115,7 @@ function App(props) {
                   <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other life ambitions</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  Three Rings {today.getFullYear()}
+                  Three Rings Mentors {today.getFullYear()}
                 </Typography>
               </div>
             </Fade>
