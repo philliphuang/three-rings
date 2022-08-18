@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import { 
-  BrowserRouter, 
+  HashRouter, 
   Routes, 
   Route,
 } from "react-router-dom";
@@ -55,12 +55,12 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/zh" element={<App chinese={true} />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </ThemeProvider>
   </React.StrictMode>
