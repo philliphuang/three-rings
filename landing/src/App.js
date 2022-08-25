@@ -21,7 +21,7 @@ function App(props) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setSplash(false);
-    }, 3000);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -74,14 +74,14 @@ function App(props) {
             <Fade key={chinese} timeout={500}>
               <div>
                 <Typography variant="h4" align="center" sx={{pb:4}}>
-                  跟随我们的脚步。
+                  跟随我们的脚步
                 </Typography>
                 <Typography paragraph>
                   三环 (Three Rings) 为竞争异常激烈的本科课程的应届毕业生提供大学录取指导。 我们相信，只有那些自己征服过程的人才能提供最好的建议。
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
-                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link> 或通过微信在 <Link underline="hover">WeChatIDHere</Link>：
+                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>：
                 </Typography>
                 <ul>
                   <li>学生姓名和就读年份</li>
@@ -106,11 +106,11 @@ function App(props) {
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
                   Our program supports a small cohort of students individually selected by our mentors.
-                  To apply for mentorship please submit the following information to <Link underline="hover">apply@threeringsmentors.com</Link> or via WeChat at <Link underline="hover">WeChatIDHere</Link>:
+                  To apply for mentorship please submit the following information to <Link underline="hover">apply@threeringsmentors.com</Link>:
                 </Typography>
                 <ul>
                   <li>The student's name and year of school</li>
-                  <li>A parent or guardian's name and contact information</li>
+                  <li>A parent or guardian's name and contact information (if applicable)</li>
                   <li>A brief description of the student's relevant activities and performance, such as their GPA, test scores, and interests in and out of the classroom</li>
                   <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other life ambitions</li>
                 </ul>
