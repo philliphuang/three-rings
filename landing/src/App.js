@@ -77,7 +77,7 @@ function App(props) {
                   跟随我们的脚步
                 </Typography>
                 <Typography paragraph>
-                  三环 (Three Rings) 为竞争异常激烈的本科课程的应届毕业生提供大学录取指导。 我们相信，只有那些自己征服过程的人才能提供最好的建议。
+                  三环（Three Rings）为竞争异常激烈的大学录取提供指导。根据我们自身被名校录取的经验，我们能够提供最好的建议。
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
@@ -86,8 +86,8 @@ function App(props) {
                 <ul>
                   <li>学生姓名和就读年份</li>
                   <li>父母或监护人的姓名和联系信息</li>
-                  <li>简要描述学生的相关活动和表现，例如他们的 GPA、考试成绩以及课堂内外的兴趣</li>
-                  <li>学生目标的简要描述，包括他们的目标大学、预期专业和其他人生抱负</li>
+                  <li>简要描述学生的相关活动和表现，例如他们的 GPA、考试分数以及课堂内外的兴趣</li>
+                  <li>学生目标的简要描述、包括他们的目标大学、预期专业和其他人生抱负</li>
                 </ul>
                 <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
                   三环传帮带 {today.getFullYear()}
