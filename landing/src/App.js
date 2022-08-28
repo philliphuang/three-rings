@@ -77,11 +77,11 @@ function App(props) {
                   跟随我们的脚步
                 </Typography>
                 <Typography paragraph>
-                  三环（Three Rings）为竞争异常激烈的大学录取提供指导。根据我们自身被名校录取的经验，我们能够提供最好的建议。
+                  三环 (Three Rings) 为竞争异常激烈的大学录取提供指导。根据我们自身被名校录取的经验, 我们能够提供最好的建议。
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
-                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>：
+                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>:
                 </Typography>
                 <ul>
                   <li>学生姓名和就读年份</li>
