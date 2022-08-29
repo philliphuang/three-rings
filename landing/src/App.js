@@ -81,7 +81,7 @@ function App(props) {
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
-                  我们的计划仅针对导师们精心挑选的一部分同学。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>:
+                  我们的计划仅针对导师们精心挑选的一部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>:
                 </Typography>
                 <ul>
                   <li>学生姓名和就读年份</li>
