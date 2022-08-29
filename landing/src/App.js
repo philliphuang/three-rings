@@ -81,11 +81,11 @@ function App(props) {
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
-                  我们的计划支持由我们的导师单独选择的一小部分学生。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>:
+                  我们的计划仅针对导师们精心挑选的一部分同学。 申请导师，请提交以下信息至 <Link underline="hover">apply@threeringsmentors.com</Link>:
                 </Typography>
                 <ul>
                   <li>学生姓名和就读年份</li>
-                  <li>父母或监护人的姓名和联系信息</li>
+                  <li>如有必要, 父母或监护人的姓名和联系信息</li>
                   <li>简要描述学生的相关活动和表现，例如他们的 GPA、考试分数以及课堂内外的兴趣</li>
                   <li>学生目标的简要描述、包括他们的目标大学、预期专业和其他人生抱负</li>
                 </ul>
@@ -105,12 +105,12 @@ function App(props) {
                 </Typography>
                 <Divider sx={{my:4}}/>
                 <Typography paragraph>
-                  Our program supports a small cohort of students individually selected by our mentors.
+                  Our program supports a small cohort of students individually selected by the mentors.
                   To apply for mentorship please submit the following information to <Link underline="hover">apply@threeringsmentors.com</Link>:
                 </Typography>
                 <ul>
                   <li>The student's name and year of school</li>
-                  <li>A parent or guardian's name and contact information (if applicable)</li>
+                  <li>If applicable, a parent or guardian's name and contact information</li>
                   <li>A brief description of the student's relevant activities and performance, such as their GPA, test scores, and interests in and out of the classroom</li>
                   <li>A brief description of the student's goals, including their target colleges, anticipated majors, and other life ambitions</li>
                 </ul>
