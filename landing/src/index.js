@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Privacy from "./Privacy";
 
 import { 
   HashRouter, 
@@ -63,6 +64,7 @@ root.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/zh" element={<App chinese={true} />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
       </HashRouter>
 
