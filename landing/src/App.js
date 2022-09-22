@@ -95,11 +95,11 @@ function App(props) {
             :
             <Fade key={chinese} timeout={500}>
               <div>
-              <Typography variant="h4" align="center" sx={{pb:4}}>
+              <Typography variant="h4" align="center" sx={{pb:6}}>
                   Follow in our footsteps.
               </Typography>
 
-              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
                 <AccordionSummary>
                 <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
                   PHILOSOPHY
@@ -118,7 +118,7 @@ function App(props) {
                 </AccordionDetails>
               </Accordion>
 
-              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
                 <AccordionSummary>
                 <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
                   MENTORS
@@ -146,10 +146,10 @@ function App(props) {
                 </AccordionDetails>
               </Accordion>
 
-              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
                 <AccordionSummary>
                   <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                    APPLY
+                    APPLICATIONS
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -160,7 +160,7 @@ function App(props) {
                 </AccordionDetails>
               </Accordion>
 
-              <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
+              <Typography sx={{mt: 6, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
                 Three Rings Mentors {today.getFullYear()}
               </Typography>
               </div>
