@@ -68,7 +68,7 @@ function App(props) {
           </ButtonGroup>
         </Box>
   
-        <Box sx={{ display: "flex", justifyContent: "center", p: 8}}>
+        <Box sx={{ display: "flex", justifyContent: "center", py: 6}}>
           <AnimationTwoToneIcon fontSize="large" sx={{ color: theme.palette.grey[400]}}/>
         </Box>
     
@@ -95,7 +95,7 @@ function App(props) {
             :
             <Fade key={chinese} timeout={500}>
               <div>
-              <Typography variant="h4" align="center" sx={{pb:6}}>
+              <Typography variant="h4" align="center" sx={{pb:10}}>
                   Follow in our footsteps.
               </Typography>
 
@@ -160,7 +160,7 @@ function App(props) {
                 </AccordionDetails>
               </Accordion>
 
-              <Typography sx={{mt: 6, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
+              <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
                 Three Rings Mentors {today.getFullYear()}
               </Typography>
               </div>
