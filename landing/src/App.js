@@ -188,7 +188,7 @@ function App(props) {
                 MENTOR 3
               </Typography>
               <Typography paragraph>
-                Harvard Graduate 2018, Top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports. Chinese American male.
+                Harvard Graduate 2018, top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports. Chinese American male.
               </Typography>
               </Box>
 
