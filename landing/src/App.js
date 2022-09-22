@@ -77,19 +77,67 @@ function App(props) {
             chinese ?  
             <Fade key={chinese} timeout={500}>
               <div>
-                <Typography variant="h4" align="center" sx={{pb:4}}>
-                  跟随我们的脚步
+              <Typography variant="h4" align="center" sx={{pb:10}}>
+                跟随我们的脚步
+              </Typography>
+
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                  原理
                 </Typography>
-                <Typography paragraph>
-                  三环 (Three Rings) 为竞争异常激烈的大学录取提供指导。根据我们自身被名校录取的经验, 我们能够提供最好的建议。
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography paragraph>
+                    三环 (Three Rings) 为竞争异常激烈的大学录取提供指导。根据我们自身被名校录取的经验, 我们能够提供最好的建议。
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                  导师
                 </Typography>
-                <Divider sx={{my:4}}/>
-                <Typography paragraph>
-                  我们的计划仅针对导师们精心挑选的一部分学生。 如感兴趣，请发信息至 <Link underline="hover">apply@threeringsmentors.com</Link>。
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    导师 1: 哈佛 2018 毕业
+                  </Typography>
+                  <Typography paragraph>
+                    SAT 满分, GPA 4.0, 写作比赛全州夺冠, 为其所在高中十年来首次被哈佛大学录取的学生。华裔男生。会英语和国语。
+                  </Typography>
+                  <Typography>
+                    导师 2: 伯克利 2018 毕业
+                  </Typography>
+                  <Typography paragraph>
+                    计算机科学与经济学双学位, Monta Vista 高中毕业生, 被所有 UC 录取。华裔女生。会英语和国语。
+                  </Typography>
+                  <Typography>
+                    导师 3: 哈佛 2018 毕业
+                  </Typography>
+                  <Typography paragraph>
+                    世界顶尖科技公司主管工程师, 7 年辅导经验, 8 艺术媒介, 5 乐器, 6 运动。华裔男生。
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion elevation={0} sx={{py: 1, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                  申请
                 </Typography>
-                <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  三环传帮带 {today.getFullYear()}
-                </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography paragraph>
+                    我们的计划仅针对导师们精心挑选的一部分学生。 如感兴趣，请发信息至 <Link underline="hover">apply@threeringsmentors.com</Link>。
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
+                三环传帮带 {today.getFullYear()}
+              </Typography>
               </div>
             </Fade>
             :
