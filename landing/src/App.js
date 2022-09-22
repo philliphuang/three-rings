@@ -11,6 +11,10 @@ import { SwitchTransition } from 'react-transition-group';
 import Fade from '@mui/material/Fade';
 import AnimationTwoToneIcon from '@mui/icons-material/AnimationTwoTone';
 import { useTheme } from '@mui/material/styles';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+
 
 function App(props) {
   const [chinese, setChinese] = useState(props.chinese);
@@ -91,20 +95,74 @@ function App(props) {
             :
             <Fade key={chinese} timeout={500}>
               <div>
-                <Typography variant="h4" align="center" sx={{pb:4}}>
+              <Typography variant="h4" align="center" sx={{pb:4}}>
                   Follow in our footsteps.
+              </Typography>
+
+              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                  PHILOSOPHY
                 </Typography>
-                <Typography paragraph>
-                  Three Rings provides college admissions guidance from recent graduates of exceptionally competitive undergraduate programs. We believe that only those who conquer the process themselves can offer the best advice.
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography paragraph>
+                    Why do students that seem to have the perfect college application still get rejected? Colleges want students that stand out, but college consultants focus on what everyone else already has: grades and tests; clubs and activities; essay writing and summer programs.
+                  </Typography>
+                  <Typography paragraph>
+                    Three Rings is different. As recent graduates from Harvard and Berkeley, we know the secret to standing out to top schools: passion. Only genuine passion drives a student to achieve things others never even imagine.
+                  </Typography>
+                  <Typography paragraph>
+                    Years of exploring our own passions let us guide others to find theirs. We first build a deep, sibling-like connection with students to help them understand themselves and find a specialty they truly enjoy. Then, we use our experience to transform their specialty into the world-class accomplishments that colleges want.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                  MENTORS
                 </Typography>
-                <Divider sx={{my:4}}/>
-                <Typography paragraph>
-                  Our program supports a small cohort of students individually selected by the mentors.
-                  To apply for a mentor, please email <Link underline="hover">apply@threeringsmentors.com</Link>.
-                </Typography>
-                <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
-                  Three Rings Mentors {today.getFullYear()}
-                </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Mentor 1: Harvard Graduate 2018
+                  </Typography>
+                  <Typography paragraph>
+                    SAT Perfect Score, GPA 4.0, 1st place essay statewide, first Harvard admit in 10+ years from his high school. Chinese American male. Speaks English & Mandarin.
+                  </Typography>
+                  <Typography>
+                    Mentor 2: Berkeley Graduate 2018
+                  </Typography>
+                  <Typography paragraph>
+                    Computer Science and Economics double major, Monta Vista High graduate, accepted by all UCs. Chinese American female. Speaks English & Mandarin.
+                  </Typography>
+                  <Typography>
+                    Mentor 3: Harvard Graduate 2018
+                  </Typography>
+                  <Typography paragraph>
+                    Top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports. Chinese American male.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion elevation={0} sx={{py: 2, background:"none", '&:before': {display: 'none'}}} disableGutters>
+                <AccordionSummary>
+                  <Typography align="center" sx={{width: "100%", letterSpacing: "0.3em", marginRight: "-0.3em",}}>
+                    APPLY
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography paragraph>
+                    Due to limited availability, we individually select a small cohort of students to participate in our program.
+                    To apply for a mentor, please email <Link underline="hover">apply@threeringsmentors.com</Link>.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Typography sx={{mt: 12, mb: 4, color: theme.palette.grey[400]}} variant="body2" align="center">
+                Three Rings Mentors {today.getFullYear()}
+              </Typography>
               </div>
             </Fade>
           }
