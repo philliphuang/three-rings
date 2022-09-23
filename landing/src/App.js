@@ -72,7 +72,7 @@ function App(props) {
           </ButtonGroup>
         </Box>
   
-        <Box sx={{ display: "flex", justifyContent: "center", py: 6}}>
+        <Box sx={{ display: "flex", justifyContent: "center", py: 8}}>
           <AnimationTwoToneIcon fontSize="large" sx={{ color: theme.palette.grey[400]}}/>
         </Box>
     
@@ -81,7 +81,7 @@ function App(props) {
             chinese ?  
             <Fade key={chinese} timeout={500}>
               <div>
-              <Typography variant="h3" align="center" sx={{pb:10, fontFamily: '"Ma Shan Zheng", serif'}}>
+              <Typography variant="h3" align="center" sx={{pb:8, fontFamily: '"Ma Shan Zheng", serif'}}>
                 跟随我们的脚步
               </Typography>
 
@@ -89,13 +89,13 @@ function App(props) {
                 原理
               </Typography>
               <Typography paragraph>
-                为什么看似完美大学申请的学生仍然被拒绝？ 大学希望学生脱颖而出，但大学顾问专注于其他人已经拥有的东西：成绩和考试； 俱乐部和活动； 论文写作和暑期课程。
+                为什么看似完美大学申请的学生仍然被拒绝？大学希望学生脱颖而出，但大学顾问专注于其他人已经拥有的东西：成绩和考试；俱乐部和活动；论文写作和暑期课程。
               </Typography>
               <Typography paragraph>
-                三环不一样。 作为哈佛和伯克利的新毕业生，我们知道在顶尖学校中脱颖而出的秘诀：激情。 只有真正的热情才能驱使学生实现其他人甚至无法想象的事情。
+                三环不一样。作为哈佛和伯克利的新毕业生，我们知道在顶尖学校中脱颖而出的秘诀：对独特专业的真正热情。正如我们在自己和我们的同龄人身上所看到的那样，当学生将注意力集中在特定的利基上时，他们会实现其他人无法做到的事情。
               </Typography>
               <Typography paragraph>
-                多年探索自己的激情让我们引导他人找到他们的激情。 我们首先与学生建立深厚的兄弟姐妹般的联系，以帮助他们了解自己并找到他们真正喜欢的专业。 然后，我们利用我们的经验将他们的专业转化为大学想要的世界级成就。
+                我们花了数年时间探索我们独特的特色，我们可以帮助您找到您的特色。我们首先会像兄弟姐妹一样密切了解您，然后发现您最强大的抱负。然后，利用我们的经验，我们将您的热情转化为大学想要的改变世界的成就。
               </Typography>
 
               <Box  
@@ -144,7 +144,7 @@ function App(props) {
             :
             <Fade key={chinese} timeout={500}>
               <div>
-              <Typography variant="h4" align="center" sx={{pb:10}}>
+              <Typography variant="h4" align="center" sx={{pb:8}}>
                   Follow in our footsteps.
               </Typography>
 
@@ -155,10 +155,10 @@ function App(props) {
                 Why do students that seem to have the perfect college application still get rejected? Colleges want students that stand out, but college consultants focus on what everyone else already has: grades and tests; clubs and activities; essay writing and summer programs.
               </Typography>
               <Typography paragraph>
-                Three Rings is different. As recent graduates from Harvard and Berkeley, we know the secret to standing out to top schools: passion. Only genuine passion drives a student to achieve things others never even imagine.
+                Three Rings is different. As recent graduates from Harvard and Berkeley, we know the secret to standing out to top schools: genuine passion for a unique specialty. As we witnessed in ourselves and our peers, when students devote their attention to a particular niche, they achieve things others never could.
               </Typography>
               <Typography paragraph>
-                Years of exploring our own passions let us guide others to find theirs. We first build a deep, sibling-like connection with students to help them understand themselves and find a specialty they truly enjoy. Then, we use our experience to transform their specialty into the world-class accomplishments that colleges want.
+                We spent years exploring our unique specialties, and we can help you find yours. We first get to know you closely&#8212;much like a sibling&#8212;and discover your strongest ambitions. Then, using our experience, we transform your enthusiasm into the world-changing accomplishments colleges want.
               </Typography>
 
               <Box  
