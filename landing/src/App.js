@@ -89,13 +89,13 @@ function App(props) {
                 原理
               </Typography>
               <Typography paragraph>
-                为什么看似完美大学申请的学生仍然被拒绝？大学希望学生脱颖而出，但大学顾问专注于其他人已经拥有的东西：成绩和考试；俱乐部和活动；论文写作和暑期课程。
+                为什么大学申请看似完美的学生仍然被拒绝? 大学希望学生出类拔萃，但升学顾问只关注其他人已经拥有的东西： 考试成绩，课外活动，论文写作和暑假规划。
               </Typography>
               <Typography paragraph>
-                三环不一样。作为哈佛和伯克利的新毕业生，我们知道在顶尖学校中脱颖而出的秘诀：对独特专业的真正热情。正如我们在自己和我们的同龄人身上所看到的那样，当学生将注意力集中在特定的利基上时，他们会实现其他人无法做到的事情。
+                三环不一样! 我们，作为哈佛和伯克利的新毕业生， 知道从顶尖学校中脱颖而出的秘诀：你的激情，你的向往，你的爱好，你的特点及大学招生的喜好，全方位科学结合，扬长避短。 正如我们在自己和同龄人身上所看到的那样，把学生有限的时间和精力集中在特定的方向，实现他人无法达到的目的。
               </Typography>
               <Typography paragraph>
-                我们花了数年时间探索我们独特的特色，我们可以帮助您找到您的特色。我们首先会像兄弟姐妹一样密切了解您，然后发现您最强大的抱负。然后，利用我们的经验，我们将您的热情转化为大学想要的改变世界的成就。
+                我们花了数年时间探索我们独有的特色，我们可以帮助您找到您的特色。我们会像兄弟姐妹一样详细了解您，发现您最强大的闪光点。然后，利用我们的经验，将您的理想转化为大学想要的改变世界的本领。
               </Typography>
 
               <Box  
@@ -152,7 +152,7 @@ function App(props) {
                 PHILOSOPHY
               </Typography>
               <Typography paragraph>
-                Why do students that seem to have the perfect college application still get rejected? Colleges want students that stand out, but college consultants focus on what everyone else already has: grades and tests; clubs and activities; essay writing and summer programs.
+                Why do students that seem to have the perfect college application still get rejected? Colleges want students that stand out, but college admissions consultants focus on what everyone else already has: grades and tests; clubs and activities; essay writing and summer programs.
               </Typography>
               <Typography paragraph>
                 Three Rings is different. As recent graduates from Harvard and Berkeley, we know the secret to standing out to top schools: genuine passion for a unique specialty. As we witnessed in ourselves and our peers, when students devote their attention to a particular niche, they achieve things others never could.
