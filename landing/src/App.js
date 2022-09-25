@@ -118,7 +118,7 @@ function App(props) {
                 导师二
               </Typography>
               <Typography paragraph>
-                伯克利 2018 毕业, 计算机科学与经济学双学位, Monta Vista 高中毕业生, 被所有 UC 录取。华裔女生。会英语和国语。
+                伯克利 2018 毕业, 计算机科学与经济学双学位, 旧金山湾区本地人, 被所有 UC 录取。华裔女生。会英语和国语。
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
@@ -181,7 +181,7 @@ function App(props) {
                 MENTOR 2
               </Typography>
               <Typography paragraph>
-                Berkeley Graduate 2018, Computer Science and Economics double major, Monta Vista High graduate, accepted by all UCs. Chinese American female. Speaks English & Mandarin.
+                Berkeley Graduate 2018, Computer Science and Economics double major, SF Bay Area native, accepted by all UCs. Chinese American female. Speaks English & Mandarin.
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
