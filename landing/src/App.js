@@ -174,21 +174,21 @@ function App(props) {
                 MENTOR 1
               </Typography>
               <Typography paragraph>
-                Harvard Graduate 2018, SAT Perfect Score, GPA 4.0, 1st place essay statewide, first Harvard admit in 10+ years from his high school. Chinese American male. Speaks English & Mandarin.
+                Harvard Graduate 2018, SAT Perfect Score, GPA 4.0, 1st place essay statewide, first Harvard admit in 10+ years from his high school.
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
                 MENTOR 2
               </Typography>
               <Typography paragraph>
-                Berkeley Graduate 2018, Computer Science and Economics double major, SF Bay Area native, accepted by all UCs. Chinese American female. Speaks English & Mandarin.
+                Berkeley Graduate 2018, Computer Science and Economics double major, SF Bay Area native, accepted by all UCs.
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
                 MENTOR 3
               </Typography>
               <Typography paragraph>
-                Harvard Graduate 2018, top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports. Chinese American male.
+                Harvard Graduate 2018, top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports.
               </Typography>
               </Box>
 
