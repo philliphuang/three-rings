@@ -108,21 +108,21 @@ function App(props) {
                 }}
               >
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                导师一
+                导师
               </Typography>
               <Typography paragraph>
                 哈佛 2018 毕业, SAT 满分, GPA 4.0, 写作比赛全州夺冠, 为其所在高中十年来首次被哈佛大学录取的学生。华裔男生。会英语和国语。
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                导师二
+                导师
               </Typography>
               <Typography paragraph>
                 伯克利 2018 毕业, 计算机科学与经济学双学位, 旧金山湾区本地人, 被所有 UC 录取。华裔女生。会英语和国语。
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                导师三
+                导师
               </Typography>
               <Typography paragraph>
                 哈佛 2018 毕业, 世界顶尖科技公司主管工程师, 7 年辅导经验, 8 艺术媒介, 5 乐器, 6 运动。华裔男生。
@@ -171,21 +171,21 @@ function App(props) {
                 }}
               >
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                MENTOR 1
+                MENTOR
               </Typography>
               <Typography paragraph>
                 Harvard Graduate 2018, SAT Perfect Score, GPA 4.0, 1st place essay statewide, first Harvard admit in 10+ years from his high school.
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                MENTOR 2
+                MENTOR
               </Typography>
               <Typography paragraph>
                 Berkeley Graduate 2018, Computer Science and Economics double major, SF Bay Area native, accepted by all UCs.
               </Typography>
               <Divider sx={{my:4}}/>
               <Typography align="center" sx={{pb: 2, letterSpacing: "0.3em", marginRight: "-0.3em",}}>
-                MENTOR 3
+                MENTOR
               </Typography>
               <Typography paragraph>
                 Harvard Graduate 2018, top tech company engineering lead, 7 years of tutoring experience, 8 art mediums, 5 musical instruments, 6 sports.
